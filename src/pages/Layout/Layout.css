@@ -1,0 +1,32 @@
+
+.navbar {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #8d8a26;
+  opacity: 0.8;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -5px;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 15px;
+}
+
+.navbar__item {
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: beige;
+}
+.navbar__item:hover {
+  color: #3e4537;
+  font-weight: 700;
+}
+.navbar__item.active {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}

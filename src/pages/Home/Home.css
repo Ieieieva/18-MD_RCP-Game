@@ -1,0 +1,61 @@
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+.home__title {
+  font-family: 'Tourney', cursive;
+  font-size: 4.3rem;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 3px 0px 7px 
+      rgba(81,67,21,0.8), 
+	    -3px 0px 7px 
+      rgba(81,67,21,0.8), 
+	    0px 4px 7px 
+      rgba(81,67,21,0.8);
+}
+
+.home__info {
+  display: flex;
+  gap: 100px;
+  width: 90%;
+  justify-content: center;
+}
+
+.home__info--description {
+  width: 60%;
+}
+
+.home__info--rules {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.home__paragraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.home__paragraph--rules {
+  font-size: 1.3rem;
+  text-shadow: 3px 4px 7px #8d8a26;;
+}

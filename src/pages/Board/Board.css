@@ -1,0 +1,93 @@
+
+.game__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.game__title {
+  font-size: 3rem;
+  font-family: 'Tourney', cursive;
+  padding: 30px;
+  text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+.board__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.boards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.board {
+  min-height: 200px;
+  border-radius: 5px;
+  width: 250px;
+  background-color: lightgray;
+  overflow: hidden;
+  box-shadow: 0 1px 1px 
+    rgba(0,0,0,0.15), 0 2px 2px 
+    rgba(0,0,0,0.15), 0 4px 4px 
+    rgba(0,0,0,0.15), 0 8px 8px 
+    rgba(0,0,0,0.15);
+}
+
+.board__heading {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(65, 79, 79);
+  color: white;
+}
+
+.player__container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.board__console {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  justify-content: space-around;
+}
+.result {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #8d8a26;
+  text-shadow: 3px 0px 7px 
+      rgba(12, 12, 11, 0.8), 
+	    -3px 0px 7px 
+      rgba(12, 12, 9, 0.8), 
+	    0px 4px 7px 
+      rgba(46, 38, 9, 0.8);
+}
+.moves {
+  font-size: 1.2rem;
+}
+
+.game__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 3rem;
+}
+.icon__large {
+  font-size: 5rem;
+  color: rgb(46, 46, 46);
+}
